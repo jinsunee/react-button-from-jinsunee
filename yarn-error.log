@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js init
+
+PATH: 
+  /usr/local/Cellar/node/13.5.0/bin:/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/bin/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Users/jinsun/Library/Android/sdk/emulator:/Users/jinsun/Library/Android/sdk/tools:/Users/jinsun/Library/Android/sdk/tools/bin:/Users/jinsun/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:137008:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
