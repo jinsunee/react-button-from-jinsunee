@@ -6,13 +6,13 @@ const Wrapper = styled.button`
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: 4px;
-  background: #5cdb95;
-  color: #05385b;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+  background: #5cdb95;
+  color: #05385b;
 `;
 
-export default function Button({ text }) {
-  return <Wrapper>{text}</Wrapper>;
+export default function Button({ text, onClick }) {
+  return <Wrapper onClick={onClick}>{text}</Wrapper>;
 }
